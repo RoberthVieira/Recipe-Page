@@ -1,0 +1,31 @@
+Layout
+Os designs foram criados para as seguintes larguras:
+
+Celular: 375px
+Desktop: 1440px
+💡 Esses são apenas os tamanhos de design. Garanta que o conteúdo seja responsivo e atenda aos requisitos da WCAG testando a gama completa de tamanhos de tela de 320px a telas grandes.
+
+Cores
+Primárias
+Noz-moscada: hsl(14, 45%, 36%)
+Framboesa Escura: hsl(332, 51%, 32%)
+Neutras
+Branco: hsl(0, 0%, 100%)
+Branco Rosado: hsl(330, 100%, 98%)
+Casca de Ovo: hsl(30, 54%, 90%)
+Cinza Claro: hsl(30, 18%, 87%)
+Marrom Wenge: hsl(30, 10%, 34%)
+Carvão Escuro: hsl(24, 5%, 18%)
+Tipografia
+Corpo de Texto
+Tamanho da fonte (parágrafo): 16px
+Fontes
+Família: Young Serif
+
+Pesos: 400
+
+Família: Outfit
+
+Pesos: 400, 600, 700
+
+💎 Atualize para Pro para acesso aos arquivos de design e ver todos os detalhes do design e obter experiência prática usando um fluxo de trabalho profissional com ferramentas como o Figma.
