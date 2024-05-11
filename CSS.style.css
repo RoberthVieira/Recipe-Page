@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(330, 100% , 94%);
+}
+
+main{
+    padding: 50px 0;
+}
+
+.container-principal{
+    max-width: 450px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
