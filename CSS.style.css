@@ -128,8 +128,8 @@ li{
     }
 
     .container-principal{
-        width: 100%;
-        max-width: 375px;
+        width: 374px;
+        max-width: 374px;
         padding: 0;
         background-color: #fff;
         display: flex;
