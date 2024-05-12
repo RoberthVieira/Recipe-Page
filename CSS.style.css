@@ -124,10 +124,12 @@ li{
 @media screen and (max-width: 375px){
     main{
         padding: 0;
+        box-sizing: border-box;
     }
 
     .container-principal{
         width: 100%;
+        max-width: 375px;
         padding: 0;
         background-color: #fff;
         display: flex;
