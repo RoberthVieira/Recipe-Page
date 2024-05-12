@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*ESTILO PADRÃO DA PAGINA*/
 *{
     margin: 0;
     padding: 0;
@@ -11,14 +15,108 @@ main{
     padding: 50px 0;
 }
 
+.bolder{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 16px;
+    font-family: "Young Serif", serif;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+p, ul, ol, .info-nutri div{
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+}
+
+p, li{
+    margin-bottom: 10px;
+}
+
+
+/*ESTILOS DOS CONTAINERS*/
 .container-principal{
     max-width: 450px;
+    min-width: 200px;
     width: 100%;
     height: auto;
     background-color: #fff;
     margin: 0 auto;
+    padding: 18px;
     border-radius: 16px;
 
     display: flex;
     flex-direction: column;
 }
+
+.container-img{
+    width: 450px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content{
+    margin: 20px 10px;
+}
+
+.content-intro ul{
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+li{
+    position: relative;
+    left: 13px;
+    padding-left: 7px;
+}
+
+.container-instrucoes{
+    border-top: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(232, 232, 232);
+    padding: 14px 0;
+}
+
+.info-nutri{
+    padding: 5px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    position: relative;
+}
+
+.info-nutri .gramatura{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+.info-nutri:nth-of-type(odd){
+    background-color: hsl(330, 100%, 98%);
+}
+
+.info-nutri p{
+    margin-top: 7px;
+}
+
+
+
