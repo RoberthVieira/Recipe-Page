@@ -44,6 +44,7 @@ h3{
 p, ul, ol, .info-nutri div{
     font-family: "Outfit", sans-serif;
     font-size: 11px;
+    line-height: 20px;
 }
 
 p, li{
@@ -60,7 +61,7 @@ p, li{
     background-color: #fff;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.129);
     margin: 0 auto;
-    padding: 18px;
+    padding: 20px;
     border-radius: 16px;
 
     display: flex;
